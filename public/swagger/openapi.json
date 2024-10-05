@@ -1,0 +1,70 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Auth module",
+    "version": "1.0.2",
+    "description": ""
+  },
+  "paths": {
+    "/openapi/generateDocs": {
+      "post": {
+        "summary": "Call openapi.generateDocs",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/openapi/assets": {
+      "post": {
+        "summary": "Call openapi.assets",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/openapi/ui": {
+      "post": {
+        "summary": "Call openapi.ui",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/openapi/oauth2Redirect": {
+      "post": {
+        "summary": "Call openapi.oauth2Redirect",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/openapi/generateOpenAPISchema": {
+      "post": {
+        "summary": "Call openapi.generateOpenAPISchema",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/openapi/saveSchemaToFile": {
+      "post": {
+        "summary": "Call openapi.saveSchemaToFile",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}
